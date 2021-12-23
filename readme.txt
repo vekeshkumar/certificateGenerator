@@ -1,3 +1,7 @@
+
+# Certificate-Generator-PHP
+ This is an application which generates certificates with given details and template and mail them to user.
+
 FILE ORGANISATION:
 
 
