@@ -1,0 +1,55 @@
+body
+{
+	
+	margin: 10em;
+	background-color:#444444;
+}
+h2
+{
+
+font-family:calibri;
+font-size:30px;
+font-weight:bolder;
+color:#f7eb09;
+width:500px;
+background-color:#222222;
+padding:1em;
+border:4px solid #888888; 
+}
+
+.container
+{
+	
+	margin: 2em;
+	padding: 2em;
+	border:4px solid #ffff00;
+	width:500px;
+	height:auto;
+	background-color:#333333;
+}
+.button{
+	background-color:#ffff00;
+	border:4px solid #222222;
+	width:10em;
+	height:4em;
+	margin:1em;
+	padding:0.5em;
+	font-weight:bolder;
+	font-family:calibri;
+	font-size:16;
+	color:000000;
+	text-decoration: none;
+
+}
+form,td{
+	color:#ffffff;
+	font-weight:bolder;
+	font-family:calibri;
+	font-size:16;
+}
+th{
+	color:#ffff00;
+	font-weight:bolder;
+	font-family:calibri;
+	font-size:16;
+}

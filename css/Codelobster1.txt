@@ -1,0 +1,39 @@
+$str_data=NULL;
+for($i=0;$i<count($t);$i++)
+{
+	$str_data.=$t[$i];
+}
+  //$ch=chunk_split($str_data,8," ");
+  $ch=$str_data;
+  $data_arr=array(); 
+  $data_arr=str_split($ch,8);
+  //var_dump($data_arr);
+  $data_ascii=array();
+  for($i=0;$i<9;$i++)
+  {
+  	$data_ascii[$i]=bindec($data_arr[$i]);
+  	$data_org[$i]=chr($data_ascii[$i]);
+  }
+  
+  //var_dump($data_ascii);
+  var_dump($data_org);
+  $data_org1="";
+  $data_org1=implode("",$data_org);
+  $data_org1= enc_decrypt($data_org1,$key); //////KEY KEY KEY
+  echo $data_org1;
+  
+  
+  if($boo==TRUE) {
+	
+   header("Location: reg_message.php");
+   // echo "File has been moved from " . $fileTmpLoc . " to" . $pathAndName;
+} else {
+     echo "ERROR: File not moved correctly";
+}
+}
+else
+{
+	echo mysqli_error($con);
+}
+
+
