@@ -1,6 +1,7 @@
 
 # Certificate-Generator-PHP
- This is an application which generates certificates with given details and template and mail them to user.
+ This is an application which generates certificates with given details and template and mail them to user. I developed for in 2014 for VIT University and Spoken Tutorials, which was used for next 2 years to generate 10,000 certificates.
+
 
 FILE ORGANISATION:
 
